@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kode+Mono&display=swap');
+
+body {
+    padding: 2em;
+    font-family: "Kode Mono", monospace;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  
+  a {
+    color: black;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  h1 {
+    font-size: 2em;
+    font-family: "Silkscreen", sans-serif;
+    font-weight: 400;
+    color: black;
+  }
+
+  h3 {
+    text-decoration: underline;
+  }
+
+  .index {
+    background-color: #c3f3fc;
+    color: black;
+  }
+  
+  .growingup {
+    color: black;
+    background-color: #d3fddc;
+  }
+  
+  .college {
+    background-color: #dceeff;
+    color: black;
+  }
+  
+  .future {
+    background-color: #f0e6ff;
+    color: black;
+  }
+  
+  img {
+    display: block;
+    max-width: 25%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    margin: 1.5em auto;
+  }
+  
+  figure {
+    text-align: center;
+    margin: 2em 0;
+  }
+  
+  figcaption {
+    font-size: 0.9em;
+    color: #555;
+    margin-top: 0.5em;
+  }
+
+  .link-boxes {
+    display: flex;
+    flex-direction: row;
+    gap: 1.5em;
+    justify-content: center;
+    margin-top: 2em;
+  }
+  
+  .link-box {
+    background-color: rgb(253, 241, 251);
+    padding: 1.2em 1.5em;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .link-box:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .link-box a {
+    font-size: 1.2em;
+    font-weight: bold;
+    display: block;
+    color: #1d567f;
+  }
+  
+  @keyframes fadeSlideIn {
+    0% {
+      opacity: 0;
+      transform: translateY(30px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  h1.animated-title {
+    animation: fadeSlideIn 1s ease-out;
+  }
+  
+  .section-box {
+    background-color: white;
+    padding: 1.5em;
+    margin: 2em 0;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+  }
+  
+  .section-box h3 {
+    margin-top: 0;
+    color: #333;
+  }
+  
