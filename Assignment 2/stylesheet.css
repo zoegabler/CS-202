@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    font-family: 'arial', sans-serif;
+    transition: background-color 1s ease;
+  }
+  
+  .container {
+    text-align: center;
+    padding: 40px;
+    opacity: 1;
+    transition: opacity 0.6s ease;
+  }
+
+  .oldenburg-regular {
+    font-family: "Oldenburg", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+  .nanum-pen-script-regular {
+    font-family: "Nanum Pen Script", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }  
+  
+  h1 {
+    font-size: 3.5rem;
+    transition: color 0.6s ease;
+    font-family: "oldenburg", serif;
+  }
+  
+  p {
+    font-size: 1.2rem;
+    max-width: 700px;
+    margin: 20px auto;
+    transition: color 0.6s ease;
+    font-family: "nanum pen script", cursive;
+  }
+  
+  img {
+    width: 500px;
+    height: auto;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+    cursor: pointer;
+    transition: transform 0.5s ease;
+  }
+  
+  img:hover {
+    transform: scale(1.05);
+  }
+
+  #toggleHint {
+    font-size: 0.9rem;
+    margin-top: 20px;
+    font-family: "nanum pen script", cursive;
+    color: gray;
+  }
+  
+  #flag-container {
+    margin-top: 30px;
+    height: 120px;
+  }
+  
+  .waving-flag {
+    width: 160px;
+    height: auto;
+    animation: wave 2s infinite ease-in-out;
+  }
+  
+  @keyframes wave {
+    0% { transform: rotateZ(0deg) rotateX(0deg) skewY(0deg); }
+    25% { transform: rotateZ(1deg) rotateX(2deg) skewY(1deg); }
+    50% { transform: rotateZ(0deg) rotateX(0deg) skewY(0deg); }
+    75% { transform: rotateZ(-1deg) rotateX(-2deg) skewY(-1deg); }
+    100% { transform: rotateZ(0deg) rotateX(0deg) skewY(0deg); }
+  }
+  
+  .fade-out {
+    opacity: 0 !important;
+  }
+  
+  audio {
+    margin-top: 20px;
+    width: 300px;
+  }
+  
