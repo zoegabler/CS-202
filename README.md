@@ -11,5 +11,7 @@
 <br>
 <p>Here are some websites I think are cool:</p>
 <ul>
-  <li>type here</li>
+  <li><a href="https://stars.chromeexperiments.com/">100,000 Stars</a></li>
+  <li><a href="https://artsandculture.google.com/">Google Arts & Culture</a></li>
+  <li><a href="https://virtualvacation.us/">Virtual Vacation</a></li>
 </ul>
