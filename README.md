@@ -15,4 +15,5 @@
   <li><a href="https://artsandculture.google.com/">Google Arts & Culture</a></li>
   <li><a href="https://virtualvacation.us/">Virtual Vacation</a></li>
   <li><a href="https://terminal27.com/">Terminal 27</a></li>
+  <li><a href="https://www.cat2048.com/">Cat 2048</a></li>
 </ul>
