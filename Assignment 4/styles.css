@@ -1,0 +1,68 @@
+body {
+    background: linear-gradient(to bottom, #b6e3b1, #e4f7ff);
+    font-family: 'Arial', sans-serif;
+    color: #333;
+}
+
+.festive-regular {
+    font-family: "Festive", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+h1 {
+    font-weight: bold;
+    color: #2c5c44;  
+    font-family: "Festive", cursive;  
+}
+
+h3 {
+    font-weight: bold;
+    color: #2c5c44;  
+    font-family: "Festive", cursive;  
+}
+
+#soundFormArea, #soundListArea {
+    animation: fadeIn 1s ease-in;
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
+
+.list-group-item {
+    background-color: rgba(255, 255, 255, 0.85);
+    border: none;
+    margin-bottom: 8px;
+    font-style: italic;
+}
+
+button, .btn {
+    font-size: 1.2rem;
+    padding: 0.8rem 1.2rem;
+    border-radius: 12px;
+}
+
+textarea, input[type="text"] {
+    font-size: 1.1rem;
+}
+
+.leaf {
+    position: fixed;
+    top: -10%;
+    pointer-events: none;
+    animation: fall linear infinite;
+    opacity: 0.8;
+}
+
+@keyframes fall {
+    0% {
+        transform: translateX(0) rotate(0deg);
+        top: -10%;
+    }
+    100% {
+        transform: translateX(200px) rotate(360deg);
+        top: 110%;
+    }
+}
