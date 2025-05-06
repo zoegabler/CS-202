@@ -1,0 +1,40 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #e0f7fa;
+  }
+  header {
+    background: #006064;
+    color: white;
+    padding: 1em;
+    text-align: center;
+  }
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1em;
+    padding: 1em;
+  }
+  .card {
+    background: white;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .card img, .card video, .card audio, .card iframe {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 0.5em;
+  }
+  .card h3 {
+    margin-top: 0;
+  }
+  .card p {
+    font-size: 0.9em;
+  }
+  .card a {
+    color: #00796b;
+    text-decoration: none;
+    font-size: 0.85em;
+  }
