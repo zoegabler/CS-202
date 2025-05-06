@@ -7,6 +7,7 @@
   <li><a href="Assignment 3/index.html">Assignment 3: P5.JS Painting Animation</a></li>
   <li><a href="Reflection Assignment 4-27/index.html">Unplugged Reflection</a></li>
   <li><a href="Assignment 4/index.html">Assignment 4: Site Specific Mobile Site</a></li>
+  <li><a href="Assignment 5 (part one)/index.html">Assignment 5 (part one): Draft of JSON Collection</a></li>
 </ul>
 <br>
 <p>Here are some websites I think are cool:</p>
