@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #e0f7fa;
+  }
+  header {
+    background: #006064;
+    color: white;
+    padding: 1em;
+    text-align: center;
+    font-family: "Cherry Bomb One", cursive;
+    letter-spacing: 2px;
+  }
+
+  h1 {
+    font-size: 3em;
+    margin: 0;
+  }
+
+  .just-me-again-down-here-regular {
+    font-family: "Just Me Again Down Here", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .cherry-bomb-one-regular {
+    font-family: "Cherry Bomb One", system-ui;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+  .bentham-regular {
+    font-family: "Bentham", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
+  .container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 1em;
+    padding: 1em;
+  }
+
+  .card {
+    background: white;
+    padding: 1em;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  .card img, .card video, .card audio, .card iframe {
+    max-width: 100%;
+    border-radius: 10px;
+    margin-top: 0.5em;
+    transition: transform 0.3s ease;
+  }
+  .card img:hover, .card video:hover, .card audio:hover, .card iframe:hover {
+    transform: scale(1.1);
+  }
+
+  .card h3 {
+    margin-top: 0;
+    font-family: "Just Me Again Down Here", cursive;
+    font-size: 1.75em;
+    border: 2px solid #00796b;
+    padding: 0.5em;
+    background: #e0f7fa;
+    border-radius: 5px;
+  }
+  .card p {
+    font-size: 0.9em;
+    font-family: "Bentham", serif;
+  }
+  .card a {
+    color: #00796b;
+    text-decoration: none;
+    font-size: 0.85em;
+  }
