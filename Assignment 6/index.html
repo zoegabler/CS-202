@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Chat with Angie</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="elizadata.js"></script>
+    <script src="elizabot.js"></script>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');
+    </style>
+</head>
+
+<body>
+
+    <div class="page-layout">
+        <img src="angie.jfif" alt="Angie Left" class="angie-side angie-left">
+
+    <div class="chat-container">
+        <header>
+            <h1>Angie K. Chatbot</h1>
+            <p class="subtitle">Get fierce advice and fabulous chats!</p>
+        </header>
+        <div id="chatbox" class="chatbox"></div>
+        <input type="text" id="userInput" placeholder="Type your message..." autofocus>
+        <button onclick="sendMessage()">Send</button>
+    </div>
+
+    <script>
+        var eliza = new ElizaBot();
+        var chatbox = document.getElementById("chatbox");
+
+        function sendMessage() {
+            var userText = document.getElementById("userInput").value.trim();
+
+            if (userText === "") {
+                // Angie reacts sassily to silence
+                var sassReplies = [
+                    "Babe... you forgot to spill the tea.",
+                    "You typed nothing. That’s not a conversation, that’s a mystery.",
+                    "I don’t respond to silence unless it's dramatic.",
+                    "Cat got your tongue, or are you just stunned by my lashes?"
+                ];
+                var reply = sassReplies[Math.floor(Math.random() * sassReplies.length)];
+                displayMessage("Angie: " + reply, "angie");
+                return;
+            }
+
+    displayMessage("You: " + userText, "user");
+    var reply = eliza.transform(userText);
+    displayMessage("Angie: " + reply, "angie");
+    document.getElementById("userInput").value = "";
+}
+
+
+        function displayMessage(text, sender) {
+            var message = document.createElement("div");
+            message.className = "message " + sender;
+            message.textContent = text;
+            chatbox.appendChild(message);
+            chatbox.scrollTop = chatbox.scrollHeight;
+        }
+
+        window.onload = function() {
+            displayMessage("Angie: " + eliza.getInitial(), "angie");
+            // NEW: Let Enter key submit the message
+            document.getElementById("userInput").addEventListener("keypress", function(e) {
+                if (e.key === "Enter") {
+                    sendMessage();
+                }
+            });
+        };
+    </script>
+
+    <img src="angie.jfif" alt="Angie Right" class="angie-side angie-right">
+        </div>
+
+</body>
+</html>
