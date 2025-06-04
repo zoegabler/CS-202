@@ -22,4 +22,5 @@
   <li><a href="https://www.cat2048.com/">Cat 2048</a></li>
   <li><a href="https://experiments.withgoogle.com/collection/chrome">Chrome Experiments</a></li>
   <li><a href="https://www.behindthename.com/random/">Behind the Name</a></li>
+  <li><a href="https://zoom.earth/maps/satellite/">Live Weather Satellite Map</li>
 </ul>
