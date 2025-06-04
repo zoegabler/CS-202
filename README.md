@@ -10,6 +10,7 @@
   <li><a href="Assignment 5 (part 2)/index.html">Assignment 5: JSON Collection</a></li>
   <li><a href="Assignment 6/index.html">Assignment 6: Angie K Chatbot</a></li>
   <li><a href="Final Project Draft/index.html">Final Project Draft</a></li>
+  <li><a href="Final Project/index.html">Final Project</a></li>
 </ul>
 <br>
 <p>Here are some websites I think are cool:</p>
