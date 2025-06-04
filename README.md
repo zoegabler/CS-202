@@ -11,6 +11,7 @@
   <li><a href="Assignment 6/index.html">Assignment 6: Angie K Chatbot</a></li>
   <li><a href="Final Project Draft/index.html">Final Project Draft</a></li>
   <li><a href="Final Project/index.html">Final Project</a></li>
+  <li><a href="Final Project Walkthrough.mp4">Final Project Walkthrough Video</a></li>
 </ul>
 <br>
 <p>Here are some websites I think are cool:</p>
